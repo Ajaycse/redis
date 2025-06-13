@@ -1,0 +1,4 @@
+type Query {
+    getAllProducts: ProductListResponse
+    getProductById(id: ID!): ProductResponse
+}

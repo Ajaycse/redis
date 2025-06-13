@@ -1,0 +1,15 @@
+type ProductListResponse {
+    data: [Product]
+}
+
+type ProductResponse {
+    data: Product
+}
+
+type Product {
+    id: ID!
+    name: String!
+    description: String
+    price: Float!
+    category: String
+}
